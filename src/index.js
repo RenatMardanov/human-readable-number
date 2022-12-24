@@ -4,9 +4,7 @@ module.exports = function toReadable (num) {
         let words = ['one', 'twen', 'thir', 'for', 'fif', 'six', 'seven', 'eigh', 'nine', 'ten', 'eleven', 'twelve', 'teen', 'ty', 'hundred']
         let singleNum = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
         let result = '';
-    
-        console.log(+num.toString()[1])
-    
+        
         if (num.toString().length === 3) {
     
             for (let i = 0; i < 10; i++) {
